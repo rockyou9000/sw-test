@@ -35,9 +35,9 @@ var Gallery = { 'images' : [
     'credit': '<a href="#">baidu</a>'
   },
   {
-    'name'  : 'face',
+    'name'  : 'judgement',
     'alt' : 'A group of face ',
     'url': '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/logo-beta.png',
     'credit': '<a href="#">face</a>'
-  },
+  }
 ]};

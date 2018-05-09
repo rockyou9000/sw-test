@@ -1,4 +1,4 @@
-var VERSION = 'versionv8'
+var VERSION = 'versionv9'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
@@ -16,7 +16,7 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/snowTroopers.jpg',
         '/sw-test/gallery/child.jpg',
         '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
-        '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/logo-beta.png'
+        '//s1.hdslb.com/bfs/static/judgement/static/img/fjw-banner3.e165f82.png'
       ]);
     })
   );
