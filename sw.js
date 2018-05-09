@@ -1,4 +1,4 @@
-var VERSION = 'version3'
+var VERSION = 'version4'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
@@ -13,7 +13,8 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/myLittleVader.jpg',
         '/sw-test/gallery/snowTroopers.jpg',
         '/sw-test/gallery/child.jpg',
-        'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png'
+        'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
+        'https://i0.hdslb.com/bfs/archive/0ac04c23af3b3297bf02dca163474326898d211d.png'
       ]);
     })
   );

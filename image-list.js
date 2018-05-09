@@ -34,4 +34,10 @@ var Gallery = { 'images' : [
     'url': 'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
     'credit': '<a href="#">baidu</a>'
   },
+  {
+    'name'  : 'face',
+    'alt' : 'A group of face ',
+    'url': 'https://i0.hdslb.com/bfs/archive/0ac04c23af3b3297bf02dca163474326898d211d.png',
+    'credit': '<a href="#">face</a>'
+  },
 ]};
