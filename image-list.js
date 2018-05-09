@@ -24,9 +24,9 @@ var Gallery = { 'images' : [
   },
   {
     'name'  : 'baidu 111',
-    'alt' : 'A group of bounty hunters meeting, aliens and humans in costumes.',
+    'alt' : 'A group of bounty ',
     'url': 'gallery/child.jpg',
-    'credit': '<a href="#">baidu</a> license.'
+    'credit': '<a href="#">baidu</a>'
   },
   
 ]};
