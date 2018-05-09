@@ -1,6 +1,6 @@
 var VERSION = 'versionv7'
 
-self.addEventListener('install', (event) {
+self.addEventListener('install', function(event) {
   console.log('install loop')
   event.waitUntil(
     caches.open(VERSION).then(function(cache) {
