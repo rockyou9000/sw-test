@@ -22,5 +22,11 @@ var Gallery = { 'images' : [
     'url': 'gallery/bountyHunters.jpg',
     'credit': '<a href="https://www.flickr.com/photos/legofenris/">legOfenris</a>, published under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Attribution-NonCommercial-NoDerivs 2.0 Generic</a> license.'
   },
+  {
+    'name'  : 'baidu 111',
+    'alt' : 'A group of bounty hunters meeting, aliens and humans in costumes.',
+    'url': 'gallery/bountyHunters.jpg',
+    'credit': '<a href="https://f.hiphotos.baidu.com/image/pic/item/08f790529822720eb1faa1be77cb0a46f21fabba.jpg">baidu</a> license.'
+  },
   
 ]};
