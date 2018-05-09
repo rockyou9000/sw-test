@@ -13,10 +13,28 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/bountyHunters.jpg',
         '/sw-test/gallery/myLittleVader.jpg',
         '/sw-test/gallery/snowTroopers.jpg',
-        '/sw-test/gallery/child.jpg'
+        '/sw-test/gallery/child.jpg',
+        'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png'
       ]);
     })
   );
+});
+
+self.addEventListener('activate', function(event) {  
+  event.waitUntil(
+    // 获取所有 cache 名称
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        // 获取所有不同于当前版本名称 cache 下的内容
+        cacheNames.filter(function(cacheName) {
+          return cacheName != currentCacheName;
+        }).map(function(cacheName) {
+          // 删除内容
+          return caches.delete(cacheName);
+        })
+      ); // end Promise.all()
+    }) // end caches.keys()
+  ); // end event.waitUntil()
 });
 
 self.addEventListener('fetch', function(event) {

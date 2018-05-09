@@ -28,5 +28,10 @@ var Gallery = { 'images' : [
     'url': 'gallery/child.jpg',
     'credit': '<a href="#">baidu</a>'
   },
-  
+  {
+    'name'  : 'bilibili',
+    'alt' : 'A group of bilibili ',
+    'url': 'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
+    'credit': '<a href="#">baidu</a>'
+  },
 ]};
