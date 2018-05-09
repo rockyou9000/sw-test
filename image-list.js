@@ -37,7 +37,7 @@ var Gallery = { 'images' : [
   {
     'name'  : 'face',
     'alt' : 'A group of face ',
-    'url': 'https://i0.hdslb.com/bfs/archive/0ac04c23af3b3297bf02dca163474326898d211d.png',
+    'url': 'https://www.1shuo.com/uploads/images/banner/md5/d8171e8bcb4592def610fc78ac0a8995.jpg',
     'credit': '<a href="#">face</a>'
   },
 ]};

@@ -1,4 +1,4 @@
-var VERSION = 'version4'
+var VERSION = 'version5'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
@@ -14,7 +14,7 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/snowTroopers.jpg',
         '/sw-test/gallery/child.jpg',
         'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
-        'https://i0.hdslb.com/bfs/archive/0ac04c23af3b3297bf02dca163474326898d211d.png'
+        'https://www.1shuo.com/uploads/images/banner/md5/d8171e8bcb4592def610fc78ac0a8995.jpg'
       ]);
     })
   );
