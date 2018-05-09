@@ -1,4 +1,4 @@
-var VERSION = 'v3'
+var VERSION = 'v4'
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
