@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
         '/sw-test/index.html',
         '/sw-test/style.css',
         '/sw-test/app.js',
-        '/sw-test/image-list.js',
+        '/sw-test/image-list?v=v1.js',
         '/sw-test/star-wars-logo.jpg',
         '/sw-test/gallery/bountyHunters.jpg',
         '/sw-test/gallery/myLittleVader.jpg',
