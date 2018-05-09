@@ -1,4 +1,4 @@
-var VERSION = 'version2'
+var VERSION = 'version3'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
