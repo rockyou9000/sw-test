@@ -1,10 +1,12 @@
-var VERSION = 'versionv7'
+var VERSION = 'versionv8'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
   event.waitUntil(
     caches.open(VERSION).then(function(cache) {
       return cache.addAll([
+        '/sw-test/',
+        '/sw-test/index.html',
         '/sw-test/style.css',
         '/sw-test/app.js',
         '/sw-test/image-list.js',
@@ -35,9 +37,9 @@ self.addEventListener('fetch', function(event) {
         // and serve second one
         let responseClone = response.clone();
         
-        // caches.open(VERSION).then(function (cache) {
-        //   cache.put(event.request, responseClone);
-        // });
+        caches.open(VERSION).then(function (cache) {
+          cache.put(event.request, responseClone);
+        });
         return response;
       }).catch(function () {
         return caches.match('/sw-test/gallery/myLittleVader.jpg');
