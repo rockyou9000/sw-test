@@ -1,12 +1,10 @@
-var VERSION = 'v5'
+var VERSION = 'v6'
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(VERSION).then(function(cache) {
       return cache.addAll([
         '/sw-test/style.css',
-        '/sw-test/app.js',
-        '/sw-test/image-list?v=v1.js',
         '/sw-test/star-wars-logo.jpg',
         '/sw-test/gallery/bountyHunters.jpg',
         '/sw-test/gallery/myLittleVader.jpg',
