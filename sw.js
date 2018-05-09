@@ -1,6 +1,7 @@
 var VERSION = 'version2'
 
 self.addEventListener('install', function(event) {
+  console.log('install loop')
   event.waitUntil(
     caches.open(VERSION).then(function(cache) {
       return cache.addAll([
@@ -17,7 +18,9 @@ self.addEventListener('install', function(event) {
     })
   );
 });
-
+self.addEventListener('activate', function(event) {
+  console.log('activate loop')
+})
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {
     // caches.match() always resolves
