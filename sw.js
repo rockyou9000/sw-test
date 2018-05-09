@@ -13,8 +13,8 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/myLittleVader.jpg',
         '/sw-test/gallery/snowTroopers.jpg',
         '/sw-test/gallery/child.jpg',
-        'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
-        'https://www.1shuo.com/uploads/images/banner/md5/d8171e8bcb4592def610fc78ac0a8995.jpg'
+        '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
+        '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/logo-beta.png'
       ]);
     })
   );

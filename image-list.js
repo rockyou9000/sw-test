@@ -31,13 +31,13 @@ var Gallery = { 'images' : [
   {
     'name'  : 'bilibili',
     'alt' : 'A group of bilibili ',
-    'url': 'https://s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
+    'url': '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
     'credit': '<a href="#">baidu</a>'
   },
   {
     'name'  : 'face',
     'alt' : 'A group of face ',
-    'url': 'https://www.1shuo.com/uploads/images/banner/md5/d8171e8bcb4592def610fc78ac0a8995.jpg',
+    'url': '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/logo-beta.png',
     'credit': '<a href="#">face</a>'
   },
 ]};
