@@ -1,4 +1,4 @@
-var VERSION = 'versionv9'
+var VERSION = 'versionv10'
 
 self.addEventListener('install', function(event) {
   console.log('install loop')
@@ -16,7 +16,8 @@ self.addEventListener('install', function(event) {
         '/sw-test/gallery/snowTroopers.jpg',
         '/sw-test/gallery/child.jpg',
         '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/jury-s.png',
-        '//s1.hdslb.com/bfs/static/judgement/static/img/fjw-banner3.e165f82.png'
+        '//s1.hdslb.com/bfs/static/judgement/static/img/fjw-banner3.e165f82.png',
+        '//h.hiphotos.baidu.com/image/h%3D300/sign=777ba8a7b0315c605c956defbdb0cbe6/a5c27d1ed21b0ef48c509cecd1c451da80cb3ec3.jpg'
       ]);
     })
   );
@@ -25,6 +26,7 @@ self.addEventListener('activate', function(event) {
   console.log('activate loop')
 })
 self.addEventListener('fetch', function(event) {
+  console.log('fetch loop')
   event.respondWith(caches.match(event.request).then(function(response) {
     // caches.match() always resolves
     // but in case of success response will have value

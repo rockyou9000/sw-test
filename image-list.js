@@ -39,5 +39,11 @@ var Gallery = { 'images' : [
     'alt' : 'A group of face ',
     'url': '//s1.hdslb.com/bfs/static/jinkela/blackroom/images/logo-beta.png',
     'credit': '<a href="#">face</a>'
+  },
+  {
+    'name'  : 'lll',
+    'alt' : 'bbbb ',
+    'url': '//h.hiphotos.baidu.com/image/h%3D300/sign=777ba8a7b0315c605c956defbdb0cbe6/a5c27d1ed21b0ef48c509cecd1c451da80cb3ec3.jpg',
+    'credit': '<a href="#">face</a>'
   }
 ]};
